@@ -1,0 +1,63 @@
+[
+  {
+    "id": "MUR-01",
+    "title": "Asset identification",
+    "review_question": "Does the contract clearly identify the asset being sold?",
+    "evidence_expected": [
+      "asset type",
+      "asset description",
+      "model, serial number, registration number, or other identifier"
+    ],
+    "evidence_scope": "contract",
+    "prototype_note": "The asset should be identifiable from the contract."
+  },
+  {
+    "id": "MUR-02",
+    "title": "Seller acquisition and ownership",
+    "review_question": "Does the contract state that the seller acquired or owned the asset before selling it to the customer?",
+    "evidence_expected": [
+      "seller ownership statement",
+      "seller acquisition statement",
+      "reference to purchase from the supplier"
+    ],
+    "evidence_scope": "contract_and_external_documents",
+    "prototype_note": "Contract language alone may not prove that acquisition or possession actually occurred."
+  },
+  {
+    "id": "MUR-03",
+    "title": "Original cost disclosure",
+    "review_question": "Does the contract disclose the seller's original acquisition cost?",
+    "evidence_expected": [
+      "original purchase cost",
+      "supplier cost",
+      "acquisition price"
+    ],
+    "evidence_scope": "contract",
+    "prototype_note": "The system should locate an explicit monetary amount or clearly referenced cost."
+  },
+  {
+    "id": "MUR-04",
+    "title": "Profit disclosure",
+    "review_question": "Does the contract disclose the profit or markup added to the original cost?",
+    "evidence_expected": [
+      "profit amount",
+      "markup amount",
+      "profit calculation"
+    ],
+    "evidence_scope": "contract",
+    "prototype_note": "The profit may be stated as an amount or through a sufficiently clear calculation."
+  },
+  {
+    "id": "MUR-05",
+    "title": "Sale price and payment terms",
+    "review_question": "Does the contract clearly state the final sale price and payment terms?",
+    "evidence_expected": [
+      "final sale price",
+      "number of payments",
+      "payment amount",
+      "payment dates or schedule"
+    ],
+    "evidence_scope": "contract",
+    "prototype_note": "The final obligation and payment arrangement should be clearly identifiable."
+  }
+]

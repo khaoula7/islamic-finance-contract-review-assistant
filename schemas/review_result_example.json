@@ -1,0 +1,23 @@
+{
+  "document_id": "murabaha_contract_001",
+  "requirement_id": "MUR-02",
+  "title": "Seller acquisition and ownership",
+  "status": "requires_review",
+  "reason": "The contract states that the bank is the seller, but it does not provide evidence showing when the bank acquired the asset.",
+  "evidence": [
+    {
+      "text": "The Bank agrees to sell the vehicle to the Customer.",
+      "page": 2,
+      "clause": "2.1"
+    }
+  ],
+  "missing_information": [
+    "supplier purchase evidence",
+    "ownership or possession date"
+  ],
+  "external_documents_required": [
+    "supplier invoice",
+    "purchase agreement",
+    "ownership or possession record"
+  ]
+}
