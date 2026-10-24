@@ -1,0 +1,59 @@
+{
+  "document_id": "MUR-COMPLETE-001",
+  "document_type": "murabaha",
+  "expected_results": [
+    {
+      "requirement_id": "MUR-01",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 2",
+      "evidence_keywords": [
+        "Model ZX-200 industrial packaging machine",
+        "serial number ZX200-45872"
+      ]
+    },
+    {
+      "requirement_id": "MUR-02",
+      "expected_status": "requires_review",
+      "expected_clause": "Clause 3",
+      "evidence_keywords": [
+        "purchased the asset",
+        "acquired ownership and possession"
+      ],
+      "reason": "The contract contains an ownership statement, but external documents are required to verify that ownership and possession occurred in practice.",
+      "expected_external_documents": [
+        "supplier invoice",
+        "proof of title or ownership",
+        "proof of possession",
+        "dated purchase record"
+      ]
+    },
+    {
+      "requirement_id": "MUR-03",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 4",
+      "evidence_keywords": [
+        "original purchase cost",
+        "AED 100,000"
+      ]
+    },
+    {
+      "requirement_id": "MUR-04",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 4",
+      "evidence_keywords": [
+        "Murabaha profit",
+        "AED 10,000"
+      ]
+    },
+    {
+      "requirement_id": "MUR-05",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 5 and Clause 6",
+      "evidence_keywords": [
+        "AED 110,000",
+        "22 monthly installments",
+        "AED 5,000"
+      ]
+    }
+  ]
+}
