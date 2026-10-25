@@ -1,63 +1,77 @@
 [
   {
     "id": "MUR-01",
-    "title": "Asset identification",
-    "review_question": "Does the contract clearly identify the asset being sold?",
-    "evidence_expected": [
-      "asset type",
-      "asset description",
-      "model, serial number, registration number, or other identifier"
-    ],
+    "title": "Asset clearly identified",
+    "review_question": "Is the Murabaha asset clearly identified?",
+    "evidence_expected": "A description that identifies the asset being sold.",
     "evidence_scope": "contract",
-    "prototype_note": "The asset should be identifiable from the contract."
+    "search_terms": [
+      "asset",
+      "machine",
+      "vehicle",
+      "equipment",
+      "serial number",
+      "supplier"
+    ],
+    "prototype_note": "This prototype checks whether the contract identifies the asset."
   },
   {
     "id": "MUR-02",
-    "title": "Seller acquisition and ownership",
-    "review_question": "Does the contract state that the seller acquired or owned the asset before selling it to the customer?",
-    "evidence_expected": [
-      "seller ownership statement",
-      "seller acquisition statement",
-      "reference to purchase from the supplier"
-    ],
+    "title": "Seller acquisition and ownership described",
+    "review_question": "Does the contract state that the seller acquired ownership and possession before selling the asset?",
+    "evidence_expected": "Wording describing the seller's purchase, ownership, and possession before the Murabaha sale.",
     "evidence_scope": "contract_and_external_documents",
-    "prototype_note": "Contract language alone may not prove that acquisition or possession actually occurred."
+    "search_terms": [
+      "bank purchased",
+      "seller purchased",
+      "acquired ownership",
+      "ownership",
+      "possession",
+      "before selling"
+    ],
+    "prototype_note": "Contract wording alone does not prove that ownership occurred operationally."
   },
   {
     "id": "MUR-03",
-    "title": "Original cost disclosure",
-    "review_question": "Does the contract disclose the seller's original acquisition cost?",
-    "evidence_expected": [
-      "original purchase cost",
-      "supplier cost",
-      "acquisition price"
-    ],
+    "title": "Original cost disclosed",
+    "review_question": "Is the seller's original purchase cost disclosed?",
+    "evidence_expected": "The original cost paid by the seller.",
     "evidence_scope": "contract",
-    "prototype_note": "The system should locate an explicit monetary amount or clearly referenced cost."
+    "search_terms": [
+      "original cost",
+      "purchase cost",
+      "cost price",
+      "cost was"
+    ],
+    "prototype_note": "The amount should be clearly disclosed."
   },
   {
     "id": "MUR-04",
-    "title": "Profit disclosure",
-    "review_question": "Does the contract disclose the profit or markup added to the original cost?",
-    "evidence_expected": [
-      "profit amount",
-      "markup amount",
-      "profit calculation"
-    ],
+    "title": "Profit or markup disclosed",
+    "review_question": "Is the Murabaha profit or markup disclosed?",
+    "evidence_expected": "The profit amount or an unambiguous method for calculating it.",
     "evidence_scope": "contract",
-    "prototype_note": "The profit may be stated as an amount or through a sufficiently clear calculation."
+    "search_terms": [
+      "profit",
+      "markup",
+      "profit amount",
+      "murabaha profit"
+    ],
+    "prototype_note": "Mentioning an agreed profit without disclosing it is insufficient."
   },
   {
     "id": "MUR-05",
-    "title": "Sale price and payment terms",
-    "review_question": "Does the contract clearly state the final sale price and payment terms?",
-    "evidence_expected": [
-      "final sale price",
-      "number of payments",
-      "payment amount",
-      "payment dates or schedule"
-    ],
+    "title": "Sale price and payment terms clear",
+    "review_question": "Are the total sale price and payment terms clearly stated?",
+    "evidence_expected": "The total Murabaha price and the payment schedule.",
     "evidence_scope": "contract",
-    "prototype_note": "The final obligation and payment arrangement should be clearly identifiable."
+    "search_terms": [
+      "sale price",
+      "payment terms",
+      "installments",
+      "monthly",
+      "due"
+    ],
+    "prototype_note": "The prototype checks the sale price and payment schedule."
   }
 ]

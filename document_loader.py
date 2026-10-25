@@ -79,6 +79,12 @@ def extract_clauses(contract_text: str) -> list[dict]:
                 "text": clause_text,
             }
         )
+    
+    if not clauses:
+        raise ValueError(
+            "No clauses were detected. "
+            "Expected headings such as 'Clause 1 — Parties'."
+        )
 
     return clauses
 
