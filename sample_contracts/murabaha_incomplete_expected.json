@@ -1,0 +1,46 @@
+{
+  "document_id": "MUR-INCOMPLETE-001",
+  "document_type": "murabaha",
+  "expected_results": [
+    {
+      "requirement_id": "MUR-01",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 2",
+      "evidence_keywords": [
+        "Model ZX-200 industrial packaging machine",
+        "serial number ZX200-45872"
+      ]
+    },
+    {
+      "requirement_id": "MUR-02",
+      "expected_status": "evidence_missing",
+      "expected_clause": null,
+      "evidence_keywords": [],
+      "reason": "The contract does not describe the Bank acquiring ownership or possession before selling the asset."
+    },
+    {
+      "requirement_id": "MUR-03",
+      "expected_status": "evidence_missing",
+      "expected_clause": null,
+      "evidence_keywords": [],
+      "reason": "The Bank's original purchase cost is not disclosed."
+    },
+    {
+      "requirement_id": "MUR-04",
+      "expected_status": "evidence_missing",
+      "expected_clause": null,
+      "evidence_keywords": [],
+      "reason": "The Murabaha profit or markup is not separately disclosed."
+    },
+    {
+      "requirement_id": "MUR-05",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 3 and Clause 4",
+      "evidence_keywords": [
+        "AED 110,000",
+        "22 monthly installments",
+        "AED 5,000"
+      ]
+    }
+  ]
+}

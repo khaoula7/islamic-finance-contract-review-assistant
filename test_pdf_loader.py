@@ -20,7 +20,7 @@ def main():
     for page in contract["pages"]:
         print("\n" + "=" * 60)
         print(f"PAGE {page['page_number']}")
-        print(page["text"][:500])
+        print(page["text"])
 
     assert contract["document_id"] == "MUR-COMPLETE-001"
     assert len(contract["clauses"]) == 7

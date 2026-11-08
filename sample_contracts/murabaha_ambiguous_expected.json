@@ -1,0 +1,60 @@
+{
+  "document_id": "MUR-AMBIGUOUS-001",
+  "document_type": "murabaha",
+  "expected_results": [
+    {
+      "requirement_id": "MUR-01",
+      "expected_status": "requires_review",
+      "expected_clause": "Clause 2",
+      "evidence_keywords": [
+        "industrial equipment",
+        "approved supplier"
+      ],
+      "reason": "The contract describes a general category of equipment but does not uniquely identify the asset."
+    },
+    {
+      "requirement_id": "MUR-02",
+      "expected_status": "requires_review",
+      "expected_clause": "Clause 3",
+      "evidence_keywords": [
+        "will arrange the purchase",
+        "after the required acquisition procedures"
+      ],
+      "reason": "The clause describes an intended sequence but does not confirm that the Bank acquired ownership and possession before the sale.",
+      "expected_external_documents": [
+        "supplier invoice",
+        "proof of title or ownership",
+        "proof of possession",
+        "dated purchase record"
+      ]
+    },
+    {
+      "requirement_id": "MUR-03",
+      "expected_status": "evidence_found",
+      "expected_clause": "Clause 4",
+      "evidence_keywords": [
+        "original cost",
+        "AED 100,000"
+      ]
+    },
+    {
+      "requirement_id": "MUR-04",
+      "expected_status": "evidence_missing",
+      "expected_clause": "Clause 4",
+      "evidence_keywords": [
+        "agreed Murabaha profit"
+      ],
+      "reason": "Profit is mentioned, but its amount or calculation method is not disclosed."
+    },
+    {
+      "requirement_id": "MUR-05",
+      "expected_status": "evidence_missing",
+      "expected_clause": "Clause 5",
+      "evidence_keywords": [
+        "final sale price",
+        "installment schedule"
+      ],
+      "reason": "The contract refers to a separate payment schedule, but the actual sale price and payment details are not provided."
+    }
+  ]
+}
